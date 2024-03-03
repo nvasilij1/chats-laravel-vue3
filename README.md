@@ -1,9 +1,12 @@
 # Laravel 10, VueJS 3, websocket pusher 
 Форк чата https://github.com/RobertGoodman08/websocket_chat_laravel
 ### Описание:
-Пет проект - чат
+
+Пет проект - чат.
+
 Развернут: https://f-0.ru
-Регистрируемся и переходим во вкладку Чат
+
+Регистрируемся и переходим во вкладку: Чат
 
 ## Для разработчиков
 
@@ -31,7 +34,7 @@ PUSHER_PORT=443
 PUSHER_SCHEME=https
 PUSHER_APP_CLUSTER=cluster_из_настроек_ключей_pusher.com
 ```
-5. В корне проекта выполнить:
+4. В корне проекта выполнить:
 
 ```php artisan key:generate```
 
@@ -39,7 +42,7 @@ PUSHER_APP_CLUSTER=cluster_из_настроек_ключей_pusher.com
 
 ```npm install```
 
-6. В корне cтарт сервера разработки 
+5. В корне cтарт сервера разработки 
 
 ```npm run dev```
 
