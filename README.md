@@ -48,3 +48,6 @@ PUSHER_APP_CLUSTER=cluster_из_настроек_ключей_pusher.com
 
 ```php artisan serve```
 
+или
+
+```php ./vendor/bin/sail up -d```
